@@ -21,7 +21,7 @@ display: flex;
 .header {
   font-size: 24px;
   color: #F9FAF8;  
-  display: inline-flex;
+  display: flex;
   text-align: left;
   margin-left: 9rem;
   margin-top: 5px;
@@ -36,12 +36,33 @@ display: flex;
 }
 
 .hero-image{
-    display: inline;
+    display: flex;
+    margin: 5rem auto;
+    padding: 5rem 9rem;
 }
 
-.hero-text {
-    display: block;
-    margin: 5rem 9rem;
+
+#hero-actual {
+    display: flex;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    padding: 0 5rem;
+    width: 100%;
+}
+
+#hero-sub {
+font-size: 18px;
+color: #E5E7EB;
+width: 100%;
+}
+
+#image-placeholder {
+    display: flex;
+    padding: 5rem 5rem;
+    background-color: #F9FAF8;
+    height: 70%;
+    width: 70%;
 }
 
 .random-info {
