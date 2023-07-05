@@ -6,7 +6,6 @@ margin: 0;
 
 body {
     min-width: 1375px;
-    
 }
 
 
@@ -21,7 +20,6 @@ flex-direction: row;
 justify-content: space-between;
 padding: 0 9em;
 margin: auto;
-max-width: 1920px;
 }
 
 .header {
@@ -33,7 +31,7 @@ max-width: 1920px;
 }
 
 .header-links {
-    display: inline-flex;
+    display: flex;
     margin: 5px 0 0 0;
     font-size: 18px;
     color: #E5E7EB;
@@ -47,6 +45,8 @@ max-width: 1920px;
     padding: 9rem 9rem;
     height: max-content;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -93,7 +93,7 @@ max-width: 1920px;
     flex-direction: column;
     overflow: hidden;
     justify-content: center;
-    width: 90%;
+    width: 100%;
     max-width: 700px;
 }
 
