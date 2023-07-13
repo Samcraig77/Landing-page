@@ -107,6 +107,7 @@ margin: auto;
 #image-placeholder img {
     width: auto;
     min-height: 265px;
+    object-fit: cover;
 }
 
 .random-info {
